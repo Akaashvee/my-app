@@ -1,18 +1,330 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="Lambo\styy.css">
+      
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" > </script>
+      
+    <title> LAMBO </title>
+      
+  </head>
+  <body style=background-color:"black";>
+      <section id="nav-bar">
+<background-color="black">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class= "logo" src="Lambo\go.jfif" width="300px" height="300px">hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#banner"></a>
+        </li> 
+        <li class="nav-item">
+          <a  class="nav-link" href="#services">MODELS</a>
+        </li> 
+        <li class="nav-item">
+          <a  class="nav-link" href="#about-us">LAMBO</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" href="#products">ACCESSORI</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" href="#motorsport">MOTORSPORT</a>
+        </li>
+ <li class="nav-item">
+          <a  class="nav-link" href="#museum">MUSEUM</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" href="#contact">CONTACT US</a>
+        </li>
+          
+      </ul>
+      </div>
+      </div>
+      </nav>
+      </section>
+<body>
+<style>
+* {
+ 
+}
+
+
+#myVideo {
+  position:sticky;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: sticky;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+</style>
 </head>
 <body>
 
-<div class="container-fluid">
-  <h1>akaashhhh</h1>
+<video autoplay muted loop id="myVideo">
+  <source src="lambo/v1.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1>LAMBORGINI <img class= "logo" src=""></h1>
+ 
 </div>
 
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
+      
+<!----------------Website Banner ------------>
+      <section id="banner">
+
+          <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+                <h3 class="promo-title"> </h3>
+            
+             
+              </div>
+              <div class="col-md-7 text center">
+                 
+              </div>
+          </div>
+          </div>
+         <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,96L34.3,106.7C68.6,117,137,139,206,160C274.3,181,343,203,411,192C480,181,549,139,617,154.7C685.7,171,754,245,823,250.7C891.4,256,960,192,1029,154.7C1097.1,117,1166,107,1234,112C1302.9,117,1371,139,1406,149.3L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>-->
+       
+      </section>
+
+<!----------------- Services----------------->
+      
+<section id="services">
+<div class="container text-center">
+    <h1 class="title"> MODELS </h1>
+<div class="row text-center">
+    <div class = "col-md-4 services">
+        <img src = "lambo/aa.jpg" class = "service-image">
+        <h4> AVENTADOR </h4>
+        <p> 
+Revolutionary thinking is at the heart of every idea from Automobili Lamborghini. Technologies applied to the naturally aspirated V12 engine </p>
+<br>   
+<a href="C:\Users\AKASH\Desktop\Lamborgini\login.html" class="btn btn-primary" target="_blank">BOOK THIS CAR</a>
+    </div>
+   <div class = "col-md-4 services">
+        <img src = "lambo/u.jpg" class = "service-image">
+        <h4> URUS</h4>
+        <p>Lamborghini Urus is the first Super Sport Utility Vehicle in the world to merge the soul of a super sports car with the functionality of an SUV. </p>
+<br><a href="https://www.lamborghini.com/en-en/models/urus" class="btn btn-primary" target="_blank"> BOOK THIS CAR</a>
+    </div>
+    <div class = "col-md-4 services">
+        <img src = "lambo/ab.jpg" class = "service-image" >
+        <h4>HURACAN</h4>
+        <p>Lamborghini hurracan is the first Super Sport Utility Vehicle in the world to merge the soul of a super sports car with the functionality of an SUV. </p>
+<br><a href="https://www.lamborghini.com/en-en/models/huracan" class="btn btn-primary" target="_blank"> BOOK THIS CAR</a>
+
+    </div>
+</div>
+   
+</div>
+</section>
+      
+<!-----------------About Us----------------->
+
+<section id="about-us">
+<div class="container ">
+    <h1 class="title text-center"> LAMBO </h1>
+    <div class="row">
+    <div class="col-md-6 about-us">
+        <p class="about-title">We Are Not Supercars , We Are Lamborgini</p>
+        <ul>
+            <p>Automobili Lamborghini S.p.A. (Italian pronunciation: [autoˈmɔːbili lamborˈɡiːni]) is an Italian brand and manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary Audi.
+
+Ferruccio Lamborghini, an Italian manufacturing magnate, founded Automobili Ferruccio Lamborghini S.p.A. in 1963 to compete with established marques, including Ferrari. The company was noted for using a rear mid-engine, rear-wheel drive layout. Lamborghini grew rapidly during its first decade, but sales plunged in the wake of the 1973 worldwide financial downturn and the oil crisis. The firm's ownership changed three times after 1973, including a bankruptcy in 1978. American Chrysler Corporation took control of Lamborghini in 1987 and sold it to Malaysian investment group Mycom Setdco and Indonesian group V'Power Corporation in 1994. In 1998, Mycom Setdco and V'Power sold Lamborghini to the Volkswagen Group where it was placed under the control of the group's Audi division.<p>
+        </ul>
+    </div>
+    <div class="col-md-6 ">
+<br><br>
+        <img class="about-image" src="lambo/y.jpg"  height="400px" width="250px"> <img class="about-image" src="lambo/o.jpg"  height="400px" width="250px">  
+
+        </div>
+    </div>
+    </div>     
+</section>
+      
+<!-----------------Products----------------->
+    <body style="background-color:black";>
+<section id="products">
+      <div class="container">
+          <h1 class="title text-center"> ACCESSORI ORIGINAL </h1>
+          <div class="row text-center">
+          
+<div class="card" style="width: 25rem;">
+  <img class="card-img-top " src="assets/product1.jpg" alt="">
+  <div class="card-body">
+    <h5 class="card-title">AVENDATOR</h5>
+<img class="card-img-top " src="lambo/av.jpg"  alt="Card image cap">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><br>
+    <a href="file:///C:/Users/AKASH/Desktop/Lamborgini/Accessori_Originali_AVENTADOR_ENGLISH.pdf" class="btn btn-primary" target="_blank">BROUCHURE</a>
+  </div>
+</div>
+
+<div class="card" style="width: 25rem;">
+  <img class="card-img-top " src="assets/product1.jpg" alt="">
+  <div class="card-body">
+    <h5 class="card-title">HURACAN</h5>
+<img class="card-img-top " src="lambo/hh.jpg"  alt="Card image cap">
+  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <br><a href="file:///C:/Users/AKASH/Desktop/Lamborgini/Accessori_Originali_Huracan_ENGLISH.pdf" class="btn btn-primary" target="_blank">BROCHURE</a>
+  </div>
+</div>
+          
+ <div class="card" style="width: 25rem;">
+  <img class="card-img-top " src="assets/product1.jpg" alt="">
+  <div class="card-body">
+    <h5 class="card-title">URUS</h5>
+<img class="card-img-top " src="lambo/uuu.jpg"  alt="Card image cap">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   <br> <a href="file:///C:/Users/AKASH/Desktop/Lamborgini/Accessori_Originali_URUS_ENGLISH.pdf" class="btn btn-primary" target="_blank">BROCHURE</a>
+  </div>
+</div>     
+              
+
+</div>                
+    </div>  
+    </div>
+      </section>
+<!----------------motorsport ------------>
+     <section id="motorsport">
+<div class="container ">
+    <h1 class="title text-center"> MOTORSPORT</h1>
+    <div class="row">
+    <div class="col-md-6 about-us">
+        <p class="about-title">Build To Race</p>
+        <ul>
+           <p>
+Passion, performance and innovation. The Lamborghini Super Trofeo has been the pinnacle of the global one-make championship scene since 2009. The Super Trofeo is exclusively for Huracán Super Trofeo Evo model vehicles, which are racing versions of the road-approved supercars. There are three different series, in three continents: America, Asia and Europe. Every series consists of six rounds, each of which feature free practice sessions, qualifying and two races lasting 50 minutes each. There are four categories of drivers: Pro, Pro-Am, Am and Lamborghini Cup. The season culminates in the World Final, when the Lamborghini world champions are crowned.<p>
+<p>MOTORSPORT MODELS
+Lamborghini Squadra Corse’s cars for motorsport customers are designed and produced in-house. The construction approach used in Automobili Lamborghini supercars is also applied to race models.<p>
+        </ul>
+    </div>
+    <div class="col-md-6 ">
+        <img class="about-image" src="lambo/st3.jpg"  height="400px" width="600px"> 
+
+        </div>
+    </div>
+    </div>     
+</section>
+
+<!-----------------museum----------------->
+
+<section id="museum">
+<div class="container ">
+    <h1 class="title text-center">MUSEUM</h1>
+    <div class="row">
+    <br><br>
+    <div class="col-md-6">
+    <br><br>    <iframe width="560" height="315" src="lambo/v4.mp4" frameborder="0" allowfullscreen></iframe>
+      </iframe>
+
+        </div> <div class="col-md-6 museum">
+        <h5 class="about-title">MUDETEC:IN SEARCH OF THE FUTURE</h5>
+        <ul>
+            <p> The Lamborghini Museum has been updated to become Museum of Technologies</p>
+           <p> the production lines tell the story of over 50 years of innovation that project Lamborghini into the future. </p>
+           <p> From the V12 line where the Aventador’s engine and frame come together for the first time </p>
+           
+            
+        </ul>
+    </div>
+    </div>
+    </div>     
+</section>
+    
+<!-----------------Contact Us-----------------> 
+
+<section id="contact">
+    <div class="container text-center">
+       <p style="color:white;">JOIN WITH US</p>
+        <div class="social-icons">
+            <a href="#"> <img src="lambo/f.jpg"></a>
+            <a href="#"> <img src="lambo/t.jpg"></a>
+            <a href="#"> <img src="lambo/i.jpg"></a>
+            <a href="#"> <img src="lambo/you.png"></a>
+            <a href="#"> <img src="lambo/l.jpg"></a>
+            
+        </div>
+        
+    </div>
+      </section>
+    
+<!-----------------Footer-----------------> 
+
+<section id="footer">
+    <div id="container">
+    <div class="row">
+        <div class="col-md-4 footer-box">
+        <p class="footer-title"> <img src="lambo/go.jfif"> LAMBORGINI</p>
+        <p>
+
+Ferruccio Lamborghini, an Italian manufacturing magnate, founded Automobili Ferruccio Lamborghini S.p.A. in 1963 to compete with established marques, including Ferrari</p>
+        </div>
+        
+       <div class="col-md-2 footer-box">
+            <p class="footer-title"> </p>
+            <p> <img class = "footer-icon" src=""> </p>
+            <p> <img class = "footer-icon" src=></p>
+            <p> <img class = "footer-icon" src=""></p>
+        </div>
+            
+        
+        
+        <div class="col-md-3 footer-box">
+            <p class="footer-title"><b> Subscribe to Lambo </b></p>
+            <input type="email" class="form-control" placeholder="Your Email">
+            <br>
+            <a href="C:\Users\AKASH\Desktop\Lamborgini/subc.html" button type="button" class="btn btn-primary" target="_blank"> Subscribe </button></a>
+        </div> 
+        </div>
+        <p class="copyright"> WEBSITE CREATED BY AKASH </p>
+    </div>
+      </section>
+      
+<script src="smooth-scroll.js"></script>
+    <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+      
 </body>
 </html>
