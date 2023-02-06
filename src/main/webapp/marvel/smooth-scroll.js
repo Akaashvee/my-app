@@ -47,6 +47,7 @@
 	 * @return {Boolean} Returns true if all required methods are supported
 	 */
 	{
+	var supports = function () {
 		return (
 			'querySelector' in document &&
 			'addEventListener' in window &&
