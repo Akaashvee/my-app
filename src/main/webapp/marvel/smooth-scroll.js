@@ -46,7 +46,12 @@
 	 * Check if browser supports required methods
 	 * @return {Boolean} Returns true if all required methods are supported
 	 */
-	
+	{
+		return (
+			'querySelector' in document &&
+			'addEventListener' in window &&
+			'requestAnimationFrame' in window &&
+			'closest' in window.Element.prototype
 		);
 	};
 
