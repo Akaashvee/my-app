@@ -25,7 +25,7 @@
 		offset: 0,
 
 		// Easing
-		easing: 'easeInOutCubic',
+		easing: 'easeInOutCubic';
 		customEasing: null,
 
 		// History
@@ -178,7 +178,7 @@
 	 * @param   {Number} time     Time animation should take to complete
 	 * @returns {Number}
 	 */
-	var easingPattern = function (settings, time) {
+	= function (settings, time) {
 		var pattern;
 
 		// Default Easing Patterns
