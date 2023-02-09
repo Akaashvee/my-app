@@ -98,7 +98,7 @@
 	 * @link https://github.com/mathiasbynens/CSS.escape
 	 * @param {String} id The anchor ID to escape
 	 */
-	var escapeCharacters = function (id) {
+	 escapeCharacters = function 
 
 		// Remove leading hash
 		if (id.charAt(0) === '#') {
@@ -118,8 +118,8 @@
 
 			// If the character is NULL (U+0000), then throw an
 			// `InvalidCharacterError` exception and terminate these steps.
-			if (codeUnit === 0x0000) {
-				throw new InvalidCharacterError(
+			if (codeUnit === 0x0
+			    aracterError(
 					'Invalid character: the input contains U+0000.'
 				);
 			}
