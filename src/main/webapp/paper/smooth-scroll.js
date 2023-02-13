@@ -1,6 +1,6 @@
 /*! SmoothScroll v16.1.4 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	rts === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
 	(global = global || self, global.SmoothScroll = factory());
 }(this, (function () { 'use strict';
@@ -9,7 +9,7 @@
 	// Default settings
 	//
 
-	var defaults = {
+	ults = {
 
 		// Selectors
 		ignore: '[data-scroll-ignore]',
@@ -46,7 +46,7 @@
 	 * Check if browser supports required methods
 	 * @return {Boolean} Returns true if all required methods are supported
 	 */
-	var supports = function () {
+	ts = function () {
 		return (
 			'querySelector' in document &&
 			'addEventListener' in window &&
@@ -75,7 +75,7 @@
 	 * Check to see if user prefers reduced motion
 	 * @param  {Object} settings Script settings
 	 */
-	var reduceMotion = function () {
+	eMotion = function () {
 		if ('matchMedia' in window && window.matchMedia('(prefers-reduced-motion)').matches) {
 			return true;
 		}
@@ -178,7 +178,7 @@
 	 * @param   {Number} time     Time animation should take to complete
 	 * @returns {Number}
 	 */
-	var easingPattern = function (settings, time) {
+	attern = function (settings, time) {
 		var pattern;
 
 		// Default Easing Patterns
